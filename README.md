@@ -907,21 +907,21 @@ Potential production improvements:
 
 ## 📸 Screenshots
 
-**Sales Dashboard**
+### Sales Dashboard
 
-![Sales Dashboard](C:\Users\HP\Music\dashboard.png)
+<img src="assets/screenshots/dashboard.png" alt="Sales Dashboard" width="900">
 
-**Live Call — Voice Co-Pilot**
+### Live Call — Voice Co-Pilot
 
-![Live Call](C:\Users\HP\Music\live call.png)
+<img src="assets/screenshots/live-call.png" alt="Live Call — Voice Co-Pilot" width="900">
 
-**Analytics**
+### Analytics
 
-![Analytics](C:\Users\HP\Music\Analytics.png)
+<img src="assets/screenshots/analytics.png" alt="Analytics" width="900">
 
-**Knowledge Base**
+### Knowledge Base
 
-![Knowledge Base](C:\Users\HP\Music\Knowledgebase.png)
+<img src="assets/screenshots/knowledge-base.png" alt="Knowledge Base" width="900">
 
 ---
 
