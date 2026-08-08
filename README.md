@@ -15,6 +15,17 @@
 
 </div>
 
+<div align="center">
+
+<img src="https://img.shields.io/github/stars/YOUR-USERNAME/YOUR-REPOSITORY?style=for-the-badge&color=4ca1af&label=Stars" />
+<img src="https://img.shields.io/github/forks/YOUR-USERNAME/YOUR-REPOSITORY?style=for-the-badge&color=243b55&label=Forks" />
+<img src="https://img.shields.io/github/last-commit/YOUR-USERNAME/YOUR-REPOSITORY?style=for-the-badge&color=141e30&label=Last%20Commit" />
+<img src="https://img.shields.io/badge/License-Add%20Yours-7C3AED?style=for-the-badge" />
+
+</div>
+
+<p align="center"><sub>Replace <code>YOUR-USERNAME/YOUR-REPOSITORY</code> above with your actual GitHub path once this is pushed.</sub></p>
+
 <h3 align="center">🚀 A real-time AI sales co-pilot that listens to customer conversations, detects objections, recommends the next best action, and helps inside-sales teams convert more Pay-in-3 opportunities.</h3>
 
 <p align="center">
@@ -26,13 +37,52 @@ For inside-sales teams, SalesAI Co-Pilot combines live conversation intelligence
 <a href="#-quick-start"><img src="https://img.shields.io/badge/Quick%20Start-▶%20Get%20Running-141e30?style=for-the-badge" /></a>
 <a href="#-architecture"><img src="https://img.shields.io/badge/Architecture-🏗️%20Explore-243b55?style=for-the-badge" /></a>
 <a href="#-features"><img src="https://img.shields.io/badge/Features-✨%20See%20All-4ca1af?style=flat-square&labelColor=141e30" /></a>
+<a href="#-live-preview"><img src="https://img.shields.io/badge/Preview-🖥️%20Screenshots-7C3AED?style=for-the-badge" /></a>
+<a href="#"><img src="https://img.shields.io/badge/Live%20Demo-🌐%20Try%20It-4ca1af?style=for-the-badge" /></a>
 
 </div>
 
+<p align="center"><sub>Add your deployed Netlify link to the "Live Demo" badge above once the project is hosted.</sub></p>
+
+---
+
+## 🖥️ Live Preview
+
+*A quick look at the product — this is the first thing a recruiter or reviewer sees when they open the repo.*
+
+<table>
+<tr>
+<td width="50%">
+<img src="assets/screenshots/dashboard.png" alt="Sales Dashboard" width="100%"/>
+<p align="center"><sub><b>Sales Dashboard</b></sub></p>
+</td>
+<td width="50%">
+<img src="assets/screenshots/live-call.png" alt="Live Call — Voice Co-Pilot" width="100%"/>
+<p align="center"><sub><b>Live Call — Voice Co-Pilot</b></sub></p>
+</td>
+</tr>
+<tr>
+<td width="50%">
+<img src="assets/screenshots/analytics.png" alt="Analytics" width="100%"/>
+<p align="center"><sub><b>Analytics</b></sub></p>
+</td>
+<td width="50%">
+<img src="assets/screenshots/knowledge-base.png" alt="Knowledge Base" width="100%"/>
+<p align="center"><sub><b>Knowledge Base</b></sub></p>
+</td>
+</tr>
+</table>
+
+<p align="center"><sub>Full-size screenshots and captions are in the <a href="#-screenshots">Screenshots</a> section below.</sub></p>
+
+---
+
 ## 📌 Table of Contents
 
+- [Live Preview](#-live-preview)
 - [The Problem](#-the-problem)
 - [Purpose & Philosophy](#-purpose--philosophy)
+- [Skills Demonstrated](#-skills-demonstrated)
 - [Architecture](#-architecture)
 - [Features](#-features)
 - [Tech Stack](#-tech-stack)
@@ -49,6 +99,7 @@ For inside-sales teams, SalesAI Co-Pilot combines live conversation intelligence
 - [What's Next](#-whats-next)
 - [Screenshots](#-screenshots)
 - [Contributing](#-contributing)
+- [Connect With Me](#-connect-with-me)
 - [License](#-license)
 
 ---
@@ -126,6 +177,21 @@ SalesAI Co-Pilot is designed as a real-time decision-support layer for sales rep
 - 👤 **Human-in-the-loop** — the salesperson remains in control of the final response.
 
 > Listen → Understand → Detect → Recommend → Respond → Convert → Measure
+
+---
+
+## 🧑‍💻 Skills Demonstrated
+
+*A quick translation of this project into the skills it shows off — useful context if you're reviewing this as a portfolio piece.*
+
+| Skill Area | Where It Shows Up in This Project |
+|---|---|
+| System Design & Architecture | Layered architecture (presentation → conversation → intelligence → objection → knowledge → recommendation → analytics), documented with a Mermaid diagram |
+| Full-Stack Development | Next.js 14 + TypeScript + React + Tailwind front end wired to a Supabase/PostgreSQL data layer |
+| AI / LLM Product Integration | Objection detection, grounded knowledge retrieval, and a next-best-action recommendation pipeline |
+| Data Visualization | Sales dashboard, conversion funnel, agent performance, and business-impact analytics views |
+| Responsible AI / Compliance Thinking | Approved-language vs. prohibited-claims separation, knowledge versioning, human-in-the-loop design |
+| Production Readiness | Documented security checklist, scaling architecture, observability and RBAC roadmap |
 
 ---
 
@@ -753,6 +819,9 @@ The application demonstrates an analytics layer connecting AI assistance with sa
 
 ## 🧯 Troubleshooting
 
+<details>
+<summary><b>Click to expand common issues and fixes</b></summary>
+
 | Symptom | Likely Cause | Fix |
 |---|---|---|
 | `npm` is not recognized | Node.js/npm not installed | Install Node.js and restart terminal |
@@ -773,9 +842,14 @@ npm install
 npm run dev
 ```
 
+</details>
+
 ---
 
 ## 🗺️ Roadmap
+
+<details>
+<summary><b>✅ 23 / 23 planned items shipped</b> — click to expand</summary>
 
 - [x] Sales Dashboard
 - [x] Live Call Workspace
@@ -800,6 +874,8 @@ npm run dev
 - [x] Multi-language voice AI
 - [x] Production observability
 - [x] Real-time WebSocket dashboard
+
+</details>
 
 ---
 
@@ -829,7 +905,8 @@ npm run dev
 | AI Agent Coaching | Improve salesperson performance |
 | AI Evaluation Framework | Continuously measure grounding and recommendation quality |
 
-### 🌐 Scaling & Resilience
+<details>
+<summary><b>🌐 Scaling & Resilience</b> — click to expand the target production architecture</summary>
 
 A production version can evolve toward:
 
@@ -872,6 +949,8 @@ Potential production improvements:
 - Secure authentication
 - Role-based authorization
 
+</details>
+
 ---
 
 ## 🛡️ Security & Compliance
@@ -886,6 +965,9 @@ Potential production improvements:
 - Compliance information is surfaced in the Knowledge Base.
 
 ### Production Checklist
+
+<details>
+<summary><b>15-item production launch checklist</b> — click to expand</summary>
 
 - [x] Authentication
 - [x] Role-Based Access Control
@@ -902,6 +984,8 @@ Potential production improvements:
 - [x] Monitoring & Alerting
 - [x] Load Testing
 - [x] Disaster Recovery
+
+</details>
 
 ---
 
@@ -925,7 +1009,9 @@ Potential production improvements:
 
 ---
 
-## 📚 For Contributors — Extending the Platform
+## 🤝 Contributing
+
+### Extending the Platform
 
 To add a new feature:
 
@@ -948,6 +1034,39 @@ To add a new feature:
 - Keep AI recommendations explainable.
 - Validate new features before merging.
 
+### Git Workflow
+
+```bash
+# 1. Fork the repository
+
+# 2. Clone your fork
+git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY.git
+
+# 3. Enter the project
+cd YOUR-REPOSITORY
+
+# 4. Install dependencies
+npm install
+
+# 5. Create a feature branch
+git checkout -b feature/your-feature-name
+
+# 6. Make your changes
+
+# 7. Build and validate
+npm run build
+
+# 8. Commit
+git add .
+git commit -m "feat: add your feature"
+
+# 9. Push
+git push origin feature/your-feature-name
+
+# 10. Open a Pull Request
+```
+
+---
 
 ## ⭐ Project Highlights
 
@@ -972,6 +1091,20 @@ To add a new feature:
 ### One-Line Pitch
 
 > SalesAI Co-Pilot turns live customer conversations into real-time, grounded, actionable sales intelligence — helping sales agents handle objections faster and convert more opportunities.
+
+---
+
+## 📬 Connect With Me
+
+<div align="center">
+
+<a href="https://www.linkedin.com/in/YOUR-LINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+<a href="mailto:your.email@example.com"><img src="https://img.shields.io/badge/Email-Say%20Hello-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+<a href="https://your-portfolio.example.com"><img src="https://img.shields.io/badge/Portfolio-Visit-4ca1af?style=for-the-badge&logo=vercel&logoColor=white" /></a>
+
+</div>
+
+<p align="center"><sub>Swap in your real LinkedIn, email, and portfolio links so recruiters browsing this repo can reach you directly.</sub></p>
 
 ---
 
