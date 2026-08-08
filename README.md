@@ -922,7 +922,7 @@ assets/screenshots/
 
 **Sales Dashboard**
 
-![Sales Dashboard](C:\Users\HP\Music\dashboard.png)
+![Sales Dashboard]("C:\Users\HP\Music\dashboard.png")
 
 **Live Call — Voice Co-Pilot**
 
