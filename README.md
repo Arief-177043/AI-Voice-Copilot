@@ -922,23 +922,19 @@ assets/screenshots/
 
 **Sales Dashboard**
 
-![Sales Dashboard](assets/screenshots/dashboard.png)
+![Sales Dashboard](C:\Users\HP\Music\dashboard.png)
 
 **Live Call — Voice Co-Pilot**
 
-![Live Call](assets/screenshots/live-call.png)
+![Live Call](C:\Users\HP\Music\live call.png)
 
 **Analytics**
 
-![Analytics](assets/screenshots/analytics.png)
-
-**Business Impact**
-
-![Business Impact](assets/screenshots/business-impact.png)
+![Analytics](C:\Users\HP\Music\Analytics.png)
 
 **Knowledge Base**
 
-![Knowledge Base](assets/screenshots/knowledge-base.png)
+![Knowledge Base](C:\Users\HP\Music\Knowledgebase.png)
 
 ---
 
