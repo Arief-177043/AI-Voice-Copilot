@@ -948,41 +948,6 @@ To add a new feature:
 - Keep AI recommendations explainable.
 - Validate new features before merging.
 
----
-
-## 🤝 Contributing
-
-```bash
-# 1. Fork the repository
-
-# 2. Clone your fork
-git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY.git
-
-# 3. Enter the project
-cd YOUR-REPOSITORY
-
-# 4. Install dependencies
-npm install
-
-# 5. Create a feature branch
-git checkout -b feature/your-feature-name
-
-# 6. Make your changes
-
-# 7. Build and validate
-npm run build
-
-# 8. Commit
-git add .
-git commit -m "feat: add your feature"
-
-# 9. Push
-git push origin feature/your-feature-name
-
-# 10. Open a Pull Request
-```
-
----
 
 ## ⭐ Project Highlights
 
