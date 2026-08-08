@@ -683,8 +683,6 @@ MEASURE
 
 ```
 SalesAI-Co-Pilot/
-├── 📁 .bolt/
-│
 ├── 📁 app/
 │   ├── ...                         # Next.js application routes/pages
 │
@@ -909,20 +907,9 @@ Potential production improvements:
 
 ## 📸 Screenshots
 
-Add screenshots to:
-
-```
-assets/screenshots/
-├── dashboard.png
-├── live-call.png
-├── analytics.png
-├── business-impact.png
-└── knowledge-base.png
-```
-
 **Sales Dashboard**
 
-![Sales Dashboard]("C:\Users\HP\Music\dashboard.png")
+![Sales Dashboard](C:\Users\HP\Music\dashboard.png)
 
 **Live Call — Voice Co-Pilot**
 
